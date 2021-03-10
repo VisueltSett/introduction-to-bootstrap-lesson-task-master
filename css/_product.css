@@ -1,0 +1,27 @@
+.breadcrumb {
+	background-color: rgb(233, 236, 239, 0) !important;
+	padding-left: 0 !important;
+}
+.breadcrumb li {
+	font-size: 0.9rem;
+}
+
+.breadcrumb-item a {
+	color: var(--primary-colour) !important;
+}
+
+li.breadcrumb-item.active {
+	color: white !important;
+}
+
+.btn.btn-primary {
+	background-color: white;
+	color: var(--nav-colour) !important;
+	font-size: 0.6rem;
+	border-radius: 25px !important;
+	border-color: 1px solid var(--nav-colour) !important;
+	margin-right: 0.5rem;
+}
+.title-button-line-wrap {
+	marging: 0 auto 2rem;
+}
