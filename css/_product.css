@@ -53,9 +53,20 @@ li.breadcrumb-item.active {
 	left: 0;
 	background-color: var(--background-dark) !important;
 	color: white;
+	padding: 1rem;
 	margin-bottom: 0;
 }
 .details-container {
 	background-color: var(--background-dark);
-	text-align: center;
+	text-align: left;
+}
+
+.main-content-wrap {
+	max-width: 90%;
+}
+.col-md h5 {
+	color: var(--primary-colour);
+}
+.col-md p {
+	font-size: 0.9rem;
 }
