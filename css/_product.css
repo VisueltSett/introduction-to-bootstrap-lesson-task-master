@@ -32,3 +32,30 @@ li.breadcrumb-item.active {
 	justify-content: space-between;
 	margin-bottom: 1em;
 }
+
+.img-fluid {
+	width: 100%;
+	min-height: 260px;
+	background-color: var(--background-dark);
+	border-radius: 20px;
+}
+.container-fluid.image-wrap {
+	position: relative;
+	padding: 0;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.img-text {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: var(--background-dark) !important;
+	color: white;
+	margin-bottom: 0;
+}
+.details-container {
+	background-color: var(--background-dark);
+	text-align: center;
+}
