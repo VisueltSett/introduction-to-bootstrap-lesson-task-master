@@ -43,7 +43,7 @@ li.breadcrumb-item.active {
 	position: relative;
 	padding: 0;
 	margin-bottom: 2rem;
-	text-align: center;
+	text-align: left;
 }
 
 .img-text {
