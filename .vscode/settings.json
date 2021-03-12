@@ -1,4 +1,12 @@
 {
     "files.autoSave": "afterDelay",
-    "liveServer.settings.wait": 3
+    "liveServer.settings.wait": 3,
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css/"
+        }
+    ]
 }
